@@ -11,7 +11,8 @@
         "main.blocks",
         "main.ts",
         "README.md",
-        "custom.ts"
+        "custom.ts",
+        "hide_neopixel.ts"
     ],
     "testFiles": [
         "test.ts"
