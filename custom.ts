@@ -100,11 +100,11 @@ namespace A4_Lampadaire {
     }
 
     /**
-     * Luminosité ruban (0..100)
+     * Puissance éclairage (0..100)
      */
-    //% block="Luminosité ruban (0 à 100) $niveau"
+    //% block="Puissance éclairage (0 à 100) $niveau"
     //% niveau.min=0 niveau.max=100 niveau.defl=100
-    export function luminositeRuban(niveau: number): void {
+    export function Puissanceeclairage(niveau: number): void {
         if (niveau < 0) niveau = 0
         else if (niveau > 100) niveau = 100
 
